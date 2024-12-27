@@ -24,7 +24,33 @@ To run GifHub locally, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/fran-git-3/GifHub.git
+   
+2. **Navigate into the project directory**:
 
+cd GifHub
+
+3. **Install the dependencies**:
+
+npm install
+
+4. **Set up the Giphy API key**:
+
+    Create a .env file in the root directory (or use Angular's environment files).
+    Add your Giphy API key:
+
+    GIPHY_API_KEY=your_api_key_here
+
+4. **Run the application**:
+
+    You can start the app using either of these commands:
+
+    ng serve
+
+or
+
+    npm start
+
+Your app should now be running on http://localhost:4200.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Development server
