@@ -1,5 +1,57 @@
-# GifsApp
+# GifHub
 
+GifHub is a fun and interactive web application built with Angular that allows users to search, view, and share GIFs from various categories. It connects to the Giphy API to provide an endless collection of GIFs for entertainment and sharing.
+
+## Features
+
+- **Search for GIFs**: Search GIFs by keywords or categories.
+- **View GIFs**: View GIFs in full-screen mode.
+- **Share GIFs**: Share GIFs with others via social media or direct links.
+- **Save Favorites**: Option to save favorite GIFs to a personal collection (if logged in).
+- **Responsive UI**: Fast and responsive user interface with a mobile-friendly design.
+
+## Technologies Used
+
+- **Frontend**: Angular, HTML, CSS, TypeScript
+- **API**: Giphy API (for retrieving GIFs)
+- **State Management**: NgRx (optional, if using a global state)
+- **Routing**: Angular Router (for navigating between different views)
+
+## Installation
+
+To run GifHub locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/fran-git-3/GifHub.git
+   
+2. **Navigate into the project directory**:
+
+cd GifHub
+
+3. **Install the dependencies**:
+
+npm install
+
+4. **Set up the Giphy API key**:
+
+    Create a .env file in the root directory (or use Angular's environment files).
+    Add your Giphy API key:
+
+    GIPHY_API_KEY=your_api_key_here
+
+4. **Run the application**:
+
+    You can start the app using either of these commands:
+
+
+whit this 2 options:
+
+    npm start 
+
+    ng serve
+
+Your app should now be running on http://localhost:4200.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Development server
