@@ -36,7 +36,7 @@ npm install
 4. **Set up the Giphy API key**:
 
     Create a .env file in the root directory (or use Angular's environment files).
-    Add your Giphy API key:
+    Add your Giphy API key to the service of gifs:
 
     GIPHY_API_KEY=your_api_key_here
 
