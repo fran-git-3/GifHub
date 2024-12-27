@@ -44,11 +44,12 @@ npm install
 
     You can start the app using either of these commands:
 
+
+whit this 2 options:
+
+    npm start 
+
     ng serve
-
-or
-
-    npm start
 
 Your app should now be running on http://localhost:4200.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
